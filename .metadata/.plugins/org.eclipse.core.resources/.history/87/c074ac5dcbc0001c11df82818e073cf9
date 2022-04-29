@@ -1,0 +1,25 @@
+import java.util.Scanner;
+
+public class Semiconductor_Challenge {
+
+	public static void main(String[] args) {
+		Scanner Semi=new Scanner(System.in);
+		for(int i=0; i<2; i++) {
+		String product_name;
+		float length,width;
+		System.out.print("Eneter the name of the semiconductor product");
+		product_name=Semi.next();
+		
+		System.out.print("Enter the Length and width of the"+product_name);
+	    length=Semi.nextInt();
+	    width=Semi.nextInt();
+			
+		
+		}
+		
+		
+		// TODO Auto-generated method stub
+
+	}
+
+}

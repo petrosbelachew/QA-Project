@@ -1,0 +1,39 @@
+import java.util.Scanner;
+
+public class Semiconductor_Challenge {
+
+	public static void main(String[] args) {
+		Scanner Semi=new Scanner(System.in);
+		String [] Products=new String [];
+		for(int i=0; i<2; i++) {
+		String product_name;
+		float length,width,area,peremeter,peri_area;
+		System.out.print("Eneter the name of the semiconductor product");
+		product_name=Semi.next();
+		
+		System.out.print("Enter the Length and width of the "+product_name);
+	    length=Semi.nextInt();
+	    width=Semi.nextInt();
+	    
+	    area=length*width;
+	    peremeter=2*(length*width);
+	    peri_area=area/peremeter;
+	    
+		if((area<100) &&(peremeter<0) )	
+		{
+			System.out.print(product_name +" Dosen't meet the initial requirments");
+			
+		}
+		else
+		{
+	    
+			System.out.print(product_name +" is according to the standard");
+		}
+		
+		
+		// TODO Auto-generated method stub
+
+	}
+
+ }
+}
